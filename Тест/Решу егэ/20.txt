@@ -52,10 +52,6 @@ int game(int x, int y) {
 	return v[x][y] = res;
 }
 
-
-
-
-
 int main() {
 	for (int i = 10; i < 100; i++) {
 		if (game(i, 10) == 2) {

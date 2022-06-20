@@ -40,7 +40,7 @@ int main() {
 			cout << i << endl;
 		}
 	}
-cout << endl;
+	cout << endl;
 	for (int i = 1; i < 55; i++) {
 		if (game(8, i) == -2) {
 			cout << i << endl;

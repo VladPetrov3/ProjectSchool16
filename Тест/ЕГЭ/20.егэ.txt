@@ -35,6 +35,12 @@ int game(int x) {
 
 int main() {
 	for (int i = 1; i <= 28; i++) {
+		if (game(i) == -1) {
+			cout << i<< endl;
+		}
+	}
+cout << endl;
+	for (int i = 1; i <= 28; i++) {
 		if (game(i) == 2) {
 			cout << i<< endl;
 		}

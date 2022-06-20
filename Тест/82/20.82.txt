@@ -48,6 +48,4 @@ for (int i = 1; i <= 49; i++) {
 			cout << i << endl;
 		}
 	}
-
-
 }

@@ -55,6 +55,16 @@ int game(int x, int y) {
 
 int main() {
 	for (int i = 1; i <= 40; i++) {
+		if (i + i >= 19) {
+			int r = game(i, i); // Кстати, тут можно делать и так. 
+			//cout << i << ' ' << r << endl;
+			if (r == -1) {
+				cout << i << ' ' << r << endl;
+			}
+		}
+	}
+	cout << endl;
+	for (int i = 1; i <= 40; i++) {
 		if (13 + i >= 19) {
 			int r = game(13, i);
 			//cout << i << ' ' << r << endl;
@@ -63,8 +73,8 @@ int main() {
 			}
 		}
 	}
-cout << endl;
-for (int i = 1; i <= 40; i++) {
+	cout << endl;
+	for (int i = 1; i <= 40; i++) {
 		if (i + i >= 19) {
 			int r = game(i, i);
 			//cout << i << ' ' << r << endl;
