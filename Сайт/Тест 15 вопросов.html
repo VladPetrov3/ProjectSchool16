@@ -398,8 +398,7 @@ button{
 <button id="kn_sl" onclick="proverit();">ПРОВЕРИТЬ</button>
 <button id="kn_pr" style="display:none;" onclick="proverit();">Проверить</button>
 <div id="rezultat"></div>
-</div>
-</div>
+
 <script>
 document.addEventListener('DOMContentLoaded', function(){
     document.getElementById('v_1').innerHTML = vopros_1;
@@ -466,7 +465,7 @@ otv_uch_15 = document.getElementById('z_15').value;
 otv_ucgenika_15 = otv_uch_15;
 otv_uch_15 = kodirov(otv_uch_15);
 ball = 0;
-document.getElementById('vopros15').style.display = "none";
+
 document.getElementById('kn_pr').style.display = "none";
 if(otv_uch_1 == pr_otv_zadachi_1){
     ball +=1;
