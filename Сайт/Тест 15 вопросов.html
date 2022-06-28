@@ -8,11 +8,7 @@
       <link type="text/css" rel="stylesheet" href="materialize/css/materialize.min.css"  media="screen,projection"/>
 
       <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-      <style>
-      .aligncenter {
-      text-align: center;
-      }
-</style> <link rel="icon" href="icon.png" type="image/x-icon">
+         <link rel="icon" href="icon.png" type="image/x-icon">
     </head>
   <body style="background-color: white;">
   <nav class="nav-wrapper indigo">
@@ -55,9 +51,30 @@ button{
 </style>
 </head>
 <body style="background-color:white;">
-<div style="margin-left: auto;margin-right: auto;width: 600px;">
+<div style="margin-left: auto;margin-right: auto; width:1000px;">
 <p>Тест. Тема - "<span id="tema"></span>".</p>
-<div id="vopros1" style="display:block;">
+<div class="row">
+    <div class="col s12">
+<ul class="tabs tabs-fixed-width tab-demo z-depth-1">
+    <li class="tab"><a class="active" href="#1">1</a></li>
+    <li class="tab"><a href="#2">2</a></li>
+    <li class="tab"><a href="#3">3</a></li>
+    <li class="tab"><a href="#4">4</a></li>
+    <li class="tab"><a href="#5">5</a></li>
+    <li class="tab"><a href="#6">6</a></li>
+    <li class="tab"><a href="#7">7</a></li>
+    <li class="tab"><a href="#8">8</a></li>
+    <li class="tab"><a href="#9">9</a></li>
+    <li class="tab"><a href="#10">10</a></li>
+    <li class="tab"><a href="#11">11</a></li>
+    <li class="tab"><a href="#12">12</a></li>
+    <li class="tab"><a href="#13">13</a></li>
+    <li class="tab"><a href="#14">14</a></li>
+    <li class="tab"><a href="#15">15</a></li>
+</ul>
+    </div>
+<div id="1" class="col s12">
+<div id="vopros1">
 <p>Вопрос 1</p>
 42)(А. Кабанов) Два игрока, Петя и Ваня, играют в следующую игру. Перед игроками лежит куча камней. Игроки ходят по очереди, первый ход делает Петя. За один ход игрок может добавить в кучу два камня, <b>добавить в кучу три камня</b> или <b>увеличить количество камней в куче в два раза.</b> Например, имея кучу из 15 камней, за один ход можно получить кучу из 17, 18 или 30 камней. У каждого игрока, чтобы делать ходы, есть неограниченное количество камней. Игра завершается в тот момент, когда количество камней в куче становится <b>не менее 30. </b>Победителем считается игрок, сделавший последний ход, то есть первым получивший кучу, в которой будет 30 или больше камней.<br>
 В начальный момент в куче было S камней, <b>1 ≤ S ≤ 29.</b><br> Ответьте на следующие вопросы:</br>
@@ -78,7 +95,9 @@ button{
 <a href="1.html">Решение</a>
 <p><span id="v_1"></span> <input type="text" id="z_1"></p>
 </div>
-<div id="vopros2" style="display:none;">
+</div>
+<div id="2" class="col s12">
+<div id="vopros2">
 <p>Вопрос 2</p>
 60)Два игрока, Петя и Ваня, играют в следующую игру. Перед игроками лежит две кучи камней. Игроки ходят по очереди, первый ход делает Петя. За один ход игрок может<br>
 а) <b>добавить</b> в любую кучу <b>один камень;</b><br>
@@ -100,7 +119,9 @@ button{
 <a href="2.html">Решение</a>
 <p><span id="v_2"></span> <input type="text" id="z_2"></p>
 </div>
-<div id="vopros3" style="display:none;">
+</div>
+<div id="3" class="col s12">
+<div id="vopros3">
 <p>Вопрос 3</p>
     70)Два игрока, Петя и Ваня, играют в следующую игру. Перед игроками лежит две кучи камней. Игроки ходят по очереди, первый ход делает Петя. За один ход игрок может<br>
 а) <b>добавить</b> в любую кучу <b>один камень;</b><br>
@@ -123,7 +144,9 @@ button{
 <a href="3.html">Решение</a>
 <p><span id="v_3"></span> <input type="text" id="z_3"></p>
 </div>
-<div id="vopros4" style="display:none;">
+</div>
+<div id="4" class="col s12">
+<div id="vopros4">
 <p>Вопрос 4</p>
 69)Два игрока, Петя и Ваня, играют в следующую игру. Перед игроками лежит две кучи камней. Игроки ходят по очереди, первый ход делает Петя. За один ход игрок может<br>
 а) <b>добавить</b> в любую кучу <b>один камень</b>;<br>
@@ -145,7 +168,9 @@ button{
 <a href="4.html">Решение</a>
 <p><span id="v_4"></span> <input type="text" id="z_4"></p>
 </div>
-<div id="vopros5" style="display:none;">
+</div>
+<div id="5" class="col s12">
+<div id="vopros5">
 <p>Вопрос 5</p>
 63)(А. Кабанов) Два игрока, Петя и Ваня, играют в следующую игру. Перед игроками лежит две кучи камней. Игроки ходят по очереди, первый ход делает Петя. За один ход игрок может <b>добавить в любую кучу один камень</b> или <b>увеличить количество камней в первой куче в два раза</b> или <b>увеличить количество камней во второй куче в три раза.</b> Игра завершается в тот момент, когда суммарное количество камней в двух кучах становится <b>не менее 30</b>, побеждает игрок, сделавший последний ход. В начальный момент в первой куче было <b>K≥1</b> камней, а во второй – <b>S≥1</b> камней, <b>K+S ≤ 29.</b><br> Ответьте на следующие вопросы:</br><br>
 
@@ -161,7 +186,9 @@ button{
 <a href="5.html">Решение</a>
 <p><span id="v_5"></span> <input type="text" id="z_5"></p>
 </div>
-<div id="vopros6" style="display:none;">
+</div>
+<div id="6" class="col s12">
+<div id="vopros6">
 <p>Вопрос 6</p>
 65)7(А. Кабанов) Два игрока, Петя и Ваня, играют в следующую игру. Перед игроками лежит две кучи камней. Игроки ходят по очереди, первый ход делает Петя. За один ход игрок может <b>убрать из кучи один камень</b> или <b>уменьшить количество камней в любой куче в два раза (если количество камней нечётно, то остаётся на один камень меньше, чем убирается).</b> Игра завершается в тот момент, когда суммарное количество камней в двух кучах становится <b>не более 18</b>, побеждает игрок, сделавший последний ход. В начальный момент в первой куче было <b>K≥</b> камней, а во второй – <b>S≥1</b> камней, <b>S+K ≥ 19.</b><br>
 Ответьте на следующие вопросы:<br><br>
@@ -177,7 +204,9 @@ button{
 <a href="6.html">Решение</a>
 <p><span id="v_6"></span> <input type="text" id="z_6"></p>
 </div>
-<div id="vopros7" style="display:none;">
+</div>
+<div id="7" class="col s12">
+<div id="vopros7">
 <p>Вопрос 7</p>
 82)Два игрока, Петя и Ваня, играют в следующую игру. Перед игроками лежит куча камней. Игроки ходят по очереди, первый ход делает Петя. За один ход игрок может<br>
 а) добавить в кучу один камень;<br>
@@ -198,7 +227,9 @@ button{
 <a href="7.html">Решение</a>
 <p><span id="v_7"></span> <input type="text" id="z_7"></p>
 </div>
-<div id="vopros8" style="display:none;">
+</div>
+<div id="8" class="col s12">
+<div id="vopros8">
 <p>Вопрос 8</p>
 86)(Е. Джобс) Два игрока, Петя и Ваня, играют в следующую игру. У игроков есть табличка, на которой записана пара неотрицательных целых чисел. Игроки ходят по очереди, первый ход делает Петя. За один ход игрок может <b>заменить любое число на сумму обоих чисел</b>. Так, например, если перед ходом игрока была позиция (3, 5), то после его хода будет позиция (8, 5) или (3, 8). Игра завершается в тот момент, когда сумма чисел пары становится <b>не менее 45</b>, побеждает игрок, сделавший последний ход.<br>
 Ответьте на следующие вопросы:<br><br>
@@ -212,7 +243,9 @@ button{
 <a href="8.html">Решение</a>
 <p><span id="v_8"></span> <input type="text" id="z_8"></p>
 </div>
-<div id="vopros9" style="display:none;">
+</div>
+<div id="9" class="col s12">
+<div id="vopros9">
 <p>Вопрос 9</p>
 89)(И. Осипов) Два игрока, Петя и Ваня, играют в следующую игру. Перед игроками лежат <b>три кучи камней</b>. Игроки ходят по очереди, первый ход делает Петя. За один ход игрок <b>может добавить в одну из куч (по своему выбору) три камня</b> или <b>увеличить количество камней в куче в два раза</b>. Например, пусть в первой куче 10 камней, во второй 7, а в третьей 4 камня; такую позицию в игре будем обозначать (10, 7, 4). Тогда за один ход можно получить любую из шести позиций: (13, 7, 4), (20, 7, 4), (10, 10, 4), (10, 14, 4), (10, 7, 7), (10, 7, 8). Для того чтобы делать ходы, у каждого игрока есть неограниченное количество камней. Игра завершается в тот момент, когда суммарное количество камней в кучах становится <b> не менее 71</b>. Победителем считается игрок, сделавший последний ход, т. е. первым получивший такую позицию, что в кучах всего будет 71 или больше камней. В начальный момент в первой куче было семь камней, во второй куче пять камней, в третьей куче – S камней; <b>1 ≤ S ≤ 58</b>.<br>
 Ответьте на следующие вопросы:<br><br>
@@ -228,7 +261,9 @@ button{
 <a href="9.html">Решение</a>
 <p><span id="v_9"></span> <input type="text" id="z_9"></p>
 </div>
-<div id="vopros10" style="display:none;">
+</div>
+<div id="10" class="col s12">
+<div id="vopros10">
 <p>Вопрос 10</p>
 <strong>!!! ЭТО БЫЛО НА ЕГЭ-2022 !!!</strong><br>
 (Решу ЕГЭ(38597)). Два игрока, Петя и Ваня, играют в следующую игру. Перед игроками лежит куча камней. Игроки ходят по очереди, первый ход делает Петя. За один ход игрок может <b>добавить в кучу один камень</b> или <b>увеличить количество камней в куче в два раза</b>. Для того чтобы делать ходы, у каждого игрока есть неограниченное количество камней.
@@ -251,7 +286,9 @@ button{
 <a href="10.html">Решение</a>
 <p><span id="v_10"></span> <input type="text" id="z_10"></p>
 </div>
-<div id="vopros11" style="display:none;">
+</div>
+<div id="11" class="col s12">
+<div id="vopros11">
 <p>Вопрос 11</p>
 73)Два игрока, Петя и Ваня, играют в следующую игру. Перед игроками лежит две кучи камней. Игроки ходят по очереди, первый ход делает Петя. За один ход игрок может<br>
 а) добавить в любую кучу один камень;<br>
@@ -273,7 +310,9 @@ button{
 <a href="11.html">Решение</a>
 <p><span id="v_11"></span> <input type="text" id="z_11"></p>
 </div>
-<div id="vopros12" style="display:none;">
+</div>
+<div id="12" class="col s12">
+<div id="vopros12">
 <p>Вопрос 12</p>
 Два игрока, Петя и Ваня, играют в следующую игру. Перед игроками лежат две кучи камней. Игроки ходят по очереди, первый ход делает Петя. За один ход игрок <b>может убрать из одной из куч один камень</b> или <b>уменьшить количество камней в куче в два раза (если количество камней в куче нечётно, остаётся на 1 камень меньше, чем убирается)</b>. Например, пусть в одной куче 6, а в другой 9 камней; такую позицию мы будем обозначать (6, 9). За один ход из позиции (6, 9) можно получить любую из четырёх позиций: (5, 9), (3, 9), (6, 8), (6, 4).
 Игра завершается в тот момент, когда суммарное количество камней в кучах становится <b>не более 20</b>. Победителем считается игрок, сделавший последний ход, то есть первым получивший позицию, в которой в кучах будет 20 или меньше камней.
@@ -295,7 +334,9 @@ button{
 <a href="12.html">Решение</a>
 <p><span id="v_12"></span> <input type="text" id="z_12"></p>
 </div>
-<div id="vopros13" style="display:none;">
+</div>
+<div id="13" class="col s12">
+<div id="vopros13">
 <p>Вопрос 13</p>
 64)(А. Кабанов) Два игрока, Петя и Ваня, играют в следующую игру. Перед игроками лежит две кучи камней. Игроки ходят по очереди, первый ход делает Петя. За один ход игрок <b>может добавить в любую кучу два камня</b> или </b>увеличить количество камней в любой куче в три раза</b>. Игра завершается в тот момент, когда суммарное количество камней в двух кучах становится </b>не менее 45</b>, побеждает игрок, сделавший последний ход. В начальный момент в первой куче было <b>K≥1</b> камней, а во второй – <b>S≥1</b> камней, <b>K+S ≤ 43</b>.
 Ответьте на следующие вопросы:<br><br>
@@ -311,7 +352,9 @@ button{
 <a href="13.html">Решение</a>
 <p><span id="v_13"></span> <input type="text" id="z_13"></p>
 </div>
-<div id="vopros14" style="display:none;">
+</div>
+<div id="14" class="col s12">
+<div id="vopros14">
 <p>Вопрос 14</p>
 83)Два игрока, Петя и Ваня, играют в следующую игру. Перед игроками лежит куча камней. Игроки ходят по очереди, первый ход делает Петя. За один ход игрок может<br>
 а) добавить в кучу один камень;<br> 
@@ -332,7 +375,9 @@ button{
 <a href="14.html">Решение</a>
 <p><span id="v_14"></span> <input type="text" id="z_14"></p>
 </div>
-<div id="vopros15" style="display:none;">
+</div>
+<div id="15" class="col s12">
+<div id="vopros15">
 <p>Вопрос 15</p>
 88)(А. Богданов) Два игрока, Петя и Ваня, играют в следующую игру. Перед игроками лежит две кучи камней. Игроки ходят по очереди, первый ход делает Петя. За один ход игрок <b>может добавить в одну из куч 1 или 2 камня</b>. Игра завершается в тот момент, когда в сумме в кучах будет 13 камней. Победителем считается игрок, сделавший последний ход. В начальный момент в первой куче было 3 камня, во второй – S камней, <b>1 ≤ S ≤ 9</b>.<br>
 
@@ -349,9 +394,11 @@ button{
 <a href="15.html">Решение</a>
 <p><span id="v_15"></span> <input type="text" id="z_15"></p>
 </div>
-<button id="kn_sl" onclick="sled_vopr();">Следующий вопрос</button>
+</div>
+<button id="kn_sl" onclick="proverit();">ПРОВЕРИТЬ</button>
 <button id="kn_pr" style="display:none;" onclick="proverit();">Проверить</button>
 <div id="rezultat"></div>
+</div>
 </div>
 <script>
 document.addEventListener('DOMContentLoaded', function(){
@@ -372,66 +419,6 @@ document.addEventListener('DOMContentLoaded', function(){
     document.getElementById('v_15').innerHTML = vopros_15;
     document.getElementById('tema').innerHTML = test;
 });
-function sled_vopr(){
-    if(document.getElementById('vopros14').style.display == "block"){
-        document.getElementById('vopros14').style.display = "none";
-        document.getElementById('vopros15').style.display = "block";
-        document.getElementById('kn_sl').style.display = "none";
-        document.getElementById('kn_pr').style.display = "block";
-    }
-    if(document.getElementById('vopros13').style.display == "block"){
-        document.getElementById('vopros13').style.display = "none";
-        document.getElementById('vopros14').style.display = "block";
-    }
-    if(document.getElementById('vopros12').style.display == "block"){
-        document.getElementById('vopros12').style.display = "none";
-        document.getElementById('vopros13').style.display = "block";
-    }
-    if(document.getElementById('vopros11').style.display == "block"){
-        document.getElementById('vopros11').style.display = "none";
-        document.getElementById('vopros12').style.display = "block";
-    }
-    if(document.getElementById('vopros10').style.display == "block"){
-        document.getElementById('vopros10').style.display = "none";
-        document.getElementById('vopros11').style.display = "block";
-    }
-    if(document.getElementById('vopros9').style.display == "block"){
-        document.getElementById('vopros9').style.display = "none";
-        document.getElementById('vopros10').style.display = "block";
-    }
-    if(document.getElementById('vopros8').style.display == "block"){
-        document.getElementById('vopros8').style.display = "none";
-        document.getElementById('vopros9').style.display = "block";
-    }
-    if(document.getElementById('vopros7').style.display == "block"){
-        document.getElementById('vopros7').style.display = "none";
-        document.getElementById('vopros8').style.display = "block";
-    }
-    if(document.getElementById('vopros6').style.display == "block"){
-        document.getElementById('vopros6').style.display = "none";
-        document.getElementById('vopros7').style.display = "block";
-    }
-    if(document.getElementById('vopros5').style.display == "block"){
-        document.getElementById('vopros5').style.display = "none";
-        document.getElementById('vopros6').style.display = "block";
-    }
-    if(document.getElementById('vopros4').style.display == "block"){
-        document.getElementById('vopros4').style.display = "none";
-        document.getElementById('vopros5').style.display = "block";
-    }
-    if(document.getElementById('vopros3').style.display == "block"){
-        document.getElementById('vopros3').style.display = "none";
-        document.getElementById('vopros4').style.display = "block";
-    }
-    if(document.getElementById('vopros2').style.display == "block"){
-        document.getElementById('vopros2').style.display = "none";
-        document.getElementById('vopros3').style.display = "block";
-    }
-    if(document.getElementById('vopros1').style.display == "block"){
-        document.getElementById('vopros1').style.display = "none";
-        document.getElementById('vopros2').style.display = "block";
-    }
-}
 function proverit(){
 otv_uch_1 = document.getElementById('z_1').value;
 otv_ucgenika_1 = otv_uch_1;
